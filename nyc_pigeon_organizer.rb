@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key, value|
     value.each do key, array|
-    array_of_names =  array.collect.uniq do |element|
+    array_of_names =  array.collect do |element|
         element
       end
     end 
