@@ -2,7 +2,9 @@ def nyc_pigeon_organizer(data)
   # write your code here!
 
   ## declare a new hash 
-  while i < 
+  data.each do |key, value|
+    
+  end
 
   ## iterate through the hash and collect each name(currently a value and also an array of names)
       # for each key, check the value array and IF it is not already in the list, add it
