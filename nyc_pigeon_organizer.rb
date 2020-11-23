@@ -7,8 +7,12 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key, value|
     value.each do key, array|
-    array_of_names =  array.collect do |element|
+      array_of_names =  array.collect do |element|
         element
+        end
+        binding.pry
+        array_of_names.uniq
+        binding.pry
       end
     end 
   end
