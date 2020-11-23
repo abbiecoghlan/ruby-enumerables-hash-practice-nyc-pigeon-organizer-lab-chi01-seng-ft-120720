@@ -8,8 +8,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do key, array|
       array.each do |element|
-        
-      
+        list of names = element.collect {
+      end
     end 
   end
 
