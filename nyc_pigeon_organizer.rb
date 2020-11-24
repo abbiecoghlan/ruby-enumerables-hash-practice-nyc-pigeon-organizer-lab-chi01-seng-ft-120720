@@ -16,19 +16,11 @@ def nyc_pigeon_organizer(data)
           new_hash[name][key_color_gender_lives] = []
         end
         new_hash[name][key_color_gender_lives].push(key_specific_items.to_s)
-        
       end
-
-    
     end 
-    
-
-    
   end
-
   new_hash
-
-  end
+end
  
 
   ## iterate through the hash and collect each name(currently a value and also an array of names)
