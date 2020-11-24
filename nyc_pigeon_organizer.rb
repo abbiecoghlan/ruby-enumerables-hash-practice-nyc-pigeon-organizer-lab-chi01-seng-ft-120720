@@ -11,14 +11,16 @@ def nyc_pigeon_organizer(data)
      array.each do |name|
         if new_hash[name] == nil
           new_hash[name] ={}
-            if new_hash[name][key_color_gender_lives] == nil
-            new_hash[name][key_color_gender_lives] = [].push(key_specific_items)
-            end
+            
         end
         end
         
       end
+    
     end 
+    if new_hash[name][key_color_gender_lives] == nil
+            new_hash[name][key_color_gender_lives] = [].push(key_specific_items)
+            end
     binding.pry
   end
 
