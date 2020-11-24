@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
 
   # insert each name as a the KEY of a new hash, whos value is an array of hashes with the keys :color, :gender, and :lives   
   
-  pigeon_list = 
+ 
   
   
 end
