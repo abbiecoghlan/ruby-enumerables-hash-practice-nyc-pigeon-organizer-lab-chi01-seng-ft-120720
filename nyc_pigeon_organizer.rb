@@ -13,9 +13,10 @@ def nyc_pigeon_organizer(data)
           new_hash[name] ={}
         end
         end
-        binding.pry
+        
       end
     end 
+    binding.pry
   end
 
   ## iterate through the hash and collect each name(currently a value and also an array of names)
