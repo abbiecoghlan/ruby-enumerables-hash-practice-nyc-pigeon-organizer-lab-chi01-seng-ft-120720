@@ -9,7 +9,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |key, array|
       array_of_names = array.collect do |element|
-        if new_hashelement
+        if new_hash[element] == nil
+          new_hash[element] = 
         end
 
         binding.pry
