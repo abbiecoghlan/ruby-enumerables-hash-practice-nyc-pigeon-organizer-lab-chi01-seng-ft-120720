@@ -17,12 +17,13 @@ def nyc_pigeon_organizer(data)
         
       end
     binding.pry
-    end 
     if new_hash[name][key_color_gender_lives] == nil
-            new_hash[name][key_color_gender_lives] = []
-            end
+        new_hash[name][key_color_gender_lives] = []
+    end
+    end 
+    
   end
-  binding.pry
+ 
 
   ## iterate through the hash and collect each name(currently a value and also an array of names)
       # for each key, check the value array and IF it is not already in the list, add it
