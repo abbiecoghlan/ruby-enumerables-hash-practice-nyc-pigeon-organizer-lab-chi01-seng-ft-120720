@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
     
     end 
     
-  data.each do |key_color_gender_lives, value|
+
     
   end
 
