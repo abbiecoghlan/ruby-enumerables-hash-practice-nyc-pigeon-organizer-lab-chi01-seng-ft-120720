@@ -4,16 +4,16 @@ def nyc_pigeon_organizer(data)
   ## declare a new hash 
   new_hash = {}
   
-  data.each do |key_color_gender_lives, value|
+  data.each do |key_category, value|
     value.each do |key_specific_items, array|
       array.each do |name|
         if new_hash[name] == nil
           new_hash[name] ={}
         end
-        if new_hash[name][key_color_gender_lives] == nil
-          new_hash[name][key_color_gender_lives] = []
+        if new_hash[name][key_category] == nil
+          new_hash[name][key_category] = []
         end
-        new_hash[name][key_color_gender_lives].push(key_specific_items.to_s)
+        new_hash[name][key_category].push(key_specific_items.to_s)
       end
     end 
   end
