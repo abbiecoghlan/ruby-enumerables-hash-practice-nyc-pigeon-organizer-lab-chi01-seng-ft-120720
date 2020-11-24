@@ -21,7 +21,6 @@ def nyc_pigeon_organizer(data)
     if new_hash[name][key_color_gender_lives] == nil
             new_hash[name][key_color_gender_lives] = [].push(key_specific_items)
             end
-    binding.pry
   end
   binding.pry
 
