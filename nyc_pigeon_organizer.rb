@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   
   data.each do |key_color_gender_lives, value|
-    value.each do |key, array|
+    value.each do |key_specific_items, array|
       array_of_names = array.collect do |element|
         if new_hash[element] == nil
           new_hash[element] =
