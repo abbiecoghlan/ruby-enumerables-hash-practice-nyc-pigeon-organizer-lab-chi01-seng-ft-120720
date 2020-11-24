@@ -19,6 +19,8 @@ def nyc_pigeon_organizer(data)
 
     
     end 
+    
+  data.each do 
 
   new_hash
 
