@@ -1,5 +1,3 @@
-require 'pry'
-
 def nyc_pigeon_organizer(data)
   # write your code here!
 
@@ -8,7 +6,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |key_color_gender_lives, value|
     value.each do |key_specific_items, array|
-     array.each do |name|
+      array.each do |name|
         if new_hash[name] == nil
           new_hash[name] ={}
         end
